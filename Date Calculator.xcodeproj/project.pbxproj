@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594FEAB319B6A88D0054F975 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594FEAB219B6A88D0054F975 /* Cocoa.framework */; };
+		594FEABD19B6A88D0054F975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 594FEABB19B6A88D0054F975 /* InfoPlist.strings */; };
+		594FEABF19B6A88D0054F975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594FEABE19B6A88D0054F975 /* main.m */; };
+		594FEAC319B6A88D0054F975 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 594FEAC119B6A88D0054F975 /* Credits.rtf */; };
+		594FEAC619B6A88D0054F975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594FEAC519B6A88D0054F975 /* AppDelegate.m */; };
+		594FEAC919B6A88D0054F975 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594FEAC719B6A88D0054F975 /* MainMenu.xib */; };
+		594FEACB19B6A88D0054F975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594FEACA19B6A88D0054F975 /* Images.xcassets */; };
+		594FEAD219B6A88D0054F975 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594FEAD119B6A88D0054F975 /* XCTest.framework */; };
+		594FEAD319B6A88D0054F975 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594FEAB219B6A88D0054F975 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594FEAD419B6A88D0054F975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594FEAA719B6A88D0054F975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594FEAAE19B6A88D0054F975;
+			remoteInfo = "Bill Calculator Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		594FEAAF19B6A88D0054F975 /* Date Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594FEAB219B6A88D0054F975 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		594FEAB519B6A88D0054F975 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		594FEAB619B6A88D0054F975 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		594FEAB719B6A88D0054F975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		594FEABA19B6A88D0054F975 /* Date Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Date Calculator-Info.plist"; sourceTree = "<group>"; };
+		594FEABC19B6A88D0054F975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		594FEABE19B6A88D0054F975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594FEAC019B6A88D0054F975 /* Date Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Date Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		594FEAC219B6A88D0054F975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		594FEAC419B6A88D0054F975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		594FEAC519B6A88D0054F975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		594FEAC819B6A88D0054F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		594FEACA19B6A88D0054F975 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		594FEAD019B6A88D0054F975 /* Date CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Date CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594FEAD119B6A88D0054F975 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594FEAAC19B6A88D0054F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594FEAB319B6A88D0054F975 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594FEACD19B6A88D0054F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594FEAD319B6A88D0054F975 /* Cocoa.framework in Frameworks */,
+				594FEAD219B6A88D0054F975 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594FEAA619B6A88D0054F975 = {
+			isa = PBXGroup;
+			children = (
+				594FEAB819B6A88D0054F975 /* Date Calculator */,
+				594FEAB119B6A88D0054F975 /* Frameworks */,
+				594FEAB019B6A88D0054F975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594FEAB019B6A88D0054F975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594FEAAF19B6A88D0054F975 /* Date Calculator.app */,
+				594FEAD019B6A88D0054F975 /* Date CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594FEAB119B6A88D0054F975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594FEAB219B6A88D0054F975 /* Cocoa.framework */,
+				594FEAD119B6A88D0054F975 /* XCTest.framework */,
+				594FEAB419B6A88D0054F975 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594FEAB419B6A88D0054F975 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594FEAB519B6A88D0054F975 /* AppKit.framework */,
+				594FEAB619B6A88D0054F975 /* CoreData.framework */,
+				594FEAB719B6A88D0054F975 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		594FEAB819B6A88D0054F975 /* Date Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				594FEAC419B6A88D0054F975 /* AppDelegate.h */,
+				594FEAC519B6A88D0054F975 /* AppDelegate.m */,
+				594FEAC719B6A88D0054F975 /* MainMenu.xib */,
+				594FEACA19B6A88D0054F975 /* Images.xcassets */,
+				594FEAB919B6A88D0054F975 /* Supporting Files */,
+			);
+			name = "Date Calculator";
+			path = "Bill Calculator Pro";
+			sourceTree = "<group>";
+		};
+		594FEAB919B6A88D0054F975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594FEABA19B6A88D0054F975 /* Date Calculator-Info.plist */,
+				594FEABB19B6A88D0054F975 /* InfoPlist.strings */,
+				594FEABE19B6A88D0054F975 /* main.m */,
+				594FEAC019B6A88D0054F975 /* Date Calculator-Prefix.pch */,
+				594FEAC119B6A88D0054F975 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594FEAAE19B6A88D0054F975 /* Date Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594FEAE019B6A88D0054F975 /* Build configuration list for PBXNativeTarget "Date Calculator" */;
+			buildPhases = (
+				594FEAAB19B6A88D0054F975 /* Sources */,
+				594FEAAC19B6A88D0054F975 /* Frameworks */,
+				594FEAAD19B6A88D0054F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Date Calculator";
+			productName = "Bill Calculator Pro";
+			productReference = 594FEAAF19B6A88D0054F975 /* Date Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594FEACF19B6A88D0054F975 /* Date CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594FEAE319B6A88D0054F975 /* Build configuration list for PBXNativeTarget "Date CalculatorTests" */;
+			buildPhases = (
+				594FEACC19B6A88D0054F975 /* Sources */,
+				594FEACD19B6A88D0054F975 /* Frameworks */,
+				594FEACE19B6A88D0054F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594FEAD519B6A88D0054F975 /* PBXTargetDependency */,
+			);
+			name = "Date CalculatorTests";
+			productName = "Bill Calculator ProTests";
+			productReference = 594FEAD019B6A88D0054F975 /* Date CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594FEAA719B6A88D0054F975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "James Snee";
+				TargetAttributes = {
+					594FEACF19B6A88D0054F975 = {
+						TestTargetID = 594FEAAE19B6A88D0054F975;
+					};
+				};
+			};
+			buildConfigurationList = 594FEAAA19B6A88D0054F975 /* Build configuration list for PBXProject "Date Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594FEAA619B6A88D0054F975;
+			productRefGroup = 594FEAB019B6A88D0054F975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594FEAAE19B6A88D0054F975 /* Date Calculator */,
+				594FEACF19B6A88D0054F975 /* Date CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594FEAAD19B6A88D0054F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594FEABD19B6A88D0054F975 /* InfoPlist.strings in Resources */,
+				594FEACB19B6A88D0054F975 /* Images.xcassets in Resources */,
+				594FEAC319B6A88D0054F975 /* Credits.rtf in Resources */,
+				594FEAC919B6A88D0054F975 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594FEACE19B6A88D0054F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594FEAAB19B6A88D0054F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594FEAC619B6A88D0054F975 /* AppDelegate.m in Sources */,
+				594FEABF19B6A88D0054F975 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594FEACC19B6A88D0054F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594FEAD519B6A88D0054F975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594FEAAE19B6A88D0054F975 /* Date Calculator */;
+			targetProxy = 594FEAD419B6A88D0054F975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594FEABB19B6A88D0054F975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594FEABC19B6A88D0054F975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		594FEAC119B6A88D0054F975 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594FEAC219B6A88D0054F975 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		594FEAC719B6A88D0054F975 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594FEAC819B6A88D0054F975 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594FEADE19B6A88D0054F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		594FEADF19B6A88D0054F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		594FEAE119B6A88D0054F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bill Calculator Pro/Date Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Bill Calculator Pro/Date Calculator-Info.plist";
+				PRODUCT_NAME = "Date Calculator";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		594FEAE219B6A88D0054F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bill Calculator Pro/Date Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Bill Calculator Pro/Date Calculator-Info.plist";
+				PRODUCT_NAME = "Date Calculator";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		594FEAE419B6A88D0054F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bill Calculator Pro.app/Contents/MacOS/Bill Calculator Pro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bill Calculator Pro/Bill Calculator Pro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bill Calculator ProTests/Date CalculatorTests-Info.plist";
+				PRODUCT_NAME = "Date CalculatorTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		594FEAE519B6A88D0054F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bill Calculator Pro.app/Contents/MacOS/Bill Calculator Pro";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bill Calculator Pro/Bill Calculator Pro-Prefix.pch";
+				INFOPLIST_FILE = "Bill Calculator ProTests/Date CalculatorTests-Info.plist";
+				PRODUCT_NAME = "Date CalculatorTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594FEAAA19B6A88D0054F975 /* Build configuration list for PBXProject "Date Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594FEADE19B6A88D0054F975 /* Debug */,
+				594FEADF19B6A88D0054F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594FEAE019B6A88D0054F975 /* Build configuration list for PBXNativeTarget "Date Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594FEAE119B6A88D0054F975 /* Debug */,
+				594FEAE219B6A88D0054F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		594FEAE319B6A88D0054F975 /* Build configuration list for PBXNativeTarget "Date CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594FEAE419B6A88D0054F975 /* Debug */,
+				594FEAE519B6A88D0054F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594FEAA719B6A88D0054F975 /* Project object */;
+}
