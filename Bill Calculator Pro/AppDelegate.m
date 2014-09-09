@@ -46,6 +46,12 @@ NSDate *endDate;
 }
 
 
+- (IBAction)clearResults:(NSButton *)sender {
+    //clears the results
+    [_resultsField setStringValue:@""];
+    
+}
+
 - (IBAction)didChangeStartDate:(NSDatePicker *)sender {
     
     //whenever this is changed it will set the date startDate

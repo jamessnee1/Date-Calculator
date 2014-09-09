@@ -15,6 +15,7 @@
 @property (strong) IBOutlet NSDatePicker *endDate;
 @property (strong) IBOutlet NSTextField *resultsField;
 
+- (IBAction)clearResults:(NSButton *)sender;
 
 - (IBAction)didChangeStartDate:(NSDatePicker *)sender;
 - (IBAction)didChangeEndDate:(NSDatePicker *)sender;

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5763DF7D-4C08-4575-B2A7-A8E4D84323D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Date Calculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5279FD88-E974-4B75-A403-C92FE56ABA4B</key>
+		<string>https://github.com/jamessnee1/Date-Calculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Date Calculator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5279FD88-E974-4B75-A403-C92FE56ABA4B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jamessnee1/Date-Calculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5279FD88-E974-4B75-A403-C92FE56ABA4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5279FD88-E974-4B75-A403-C92FE56ABA4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>datecalc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
